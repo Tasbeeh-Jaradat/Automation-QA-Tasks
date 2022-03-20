@@ -100,13 +100,3 @@ class Recipe:
         if self.__name!=other.__name:
             return False
         return True
-
-# r=Recipe()
-# r.setName("spresso")
-# r2=Recipe()
-# r2.setName("spresso")
-# # print(r.__eq__(r2))
-# s={r,r2}
-# print(s)
-
-rr=Recipe()
